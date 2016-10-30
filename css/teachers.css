@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+.clearfix:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.main-wrapper{
+	
+	
+	width: 80%;
+	margin: 0 auto;
+	padding: 0;
+	
+}
+
+.logo img{
+	width: 100%;
+
+}
+.header{
+	
+	padding: 30px 0;
+	border-bottom: 1px solid #eed;
+}
+.logo{
+	padding: 10px 0 0 0;
+}
+.nav-bar{
+	padding: 0;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+
+}
+.nav-bar li{
+	display: inline-block;
+	margin: 10px 0 0 10px;
+
+
+}
+.nav-bar a {	
+	text-decoration: none;
+	font-size: 15px;
+	padding-top: 8px;
+	line-height: 15px;	
+	display: block;
+
+}
+.nav-bar a:hover {	
+	
+	
+	padding-top: 7px;
+	border-top: 1px solid red;
+	
+
+}
+.phones{
+	padding: 0;
+	
+	
+}
+.phones p{
+	margin-top: 8px;
+	font-size: 14px;
+	line-height: 30px;
+	padding-left: 20px;
+	background: url('../img/home_icon_03.png') 0 50% no-repeat;
+
+
+}
+.director-wrapper {
+	width: 100%;
+	padding: 30px 0;
+	border-bottom: 1px solid #eed;
+}
+.directors-greating{
+	padding: 20px 0;
+}
+.director-wrapper .quotes{
+	font-size: 100px;
+	font-style: italic;
+	color: red;
+}
+.directors-greating h2{
+	padding-top: 20px;
+	font-style: italic;
+	color: red;
+}
+.directors-greating p{
+	color: gray;
+}
+.main-wrapper h1 {
+	font-size: 70px;
+}
+.director-pic img {
+	width: 100%;
+	
+
+}
+.greatings-wrapper {
+	width: 100%;
+}
+.gretings-content h2{
+	color: red;
+	font-style: italic;
+}
+.director-wrapper .row{
+	padding: 30px 0;
+}
+.teachers-wrapper{
+	width: 100%;
+	padding-bottom:60px; 
+	border-bottom: 1px solid #eed;
+}
+.teacher-img img{
+	width: 100%;	
+}
+.teacher{
+	padding: 0;
+}
+.teacher-img{
+	padding: 0;
+	margin: 20px 0;
+	display: block;
+}
+.teacher-img:hover{
+	opacity: 0.7;
+}
+.teacher h2, h4{
+	color: red;
+	font-style: italic;
+}
+.join-wrapper {
+	padding: 80px 0;
+	width: 100%;
+}
+.join-wrapper img{
+	width: 95%;
+}
+.form-pic{
+	padding: 0;
+}
+.join-wrapper form{
+	width: 100%;
+	height: 300px;
+	border: 1px dashed black;
+}
+.form-wrapper{
+	padding: 0;
+}
+.footer {
+	width: 100%;
+	padding: 30px 10%;
+	border-top: 1px solid #eed;
+}
